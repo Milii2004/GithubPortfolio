@@ -1,14 +1,59 @@
 body{
-	background-color: #B23030;   
+	background-color: #B23030;
+  text-align: center;
 }
 
 h1{
 	color: white;
 	display: inline;
-    padding: 50px;
+  padding: 50px;
+  font-family: "Times New Roman", Times, serif;
 }
 
-div {
+nav {
     background-color: black;
     border-radius: 15px;
+}
+
+.info{
+  text-align: right;
+  float: left;
+  margin: 50px;
+}
+
+.main-projects {
+  float: right;
+}
+
+.project-1 {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin: 50px;
+  position: unset;
+  float:right;
+}
+
+.project-2 {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin: 50px;
+  float:right;
+}
+
+.project-3 {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin: 50px;
+  float:right;
+}
+
+.project-4 {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin: 50px;
+  float:right;
 }
