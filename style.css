@@ -1,18 +1,39 @@
 body{
-	background-color: #B23030;
+	background-color: #f6b1cd;
   text-align: center;
 }
 
-h1{
-	color: white;
+.name{
+	color: #7ad3ff;
 	display: inline;
-  padding: 50px;
   font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 100px;
+  padding-right: 800px;
 }
 
-nav {
-    background-color: black;
-    border-radius: 15px;
+.me{
+  border-radius: 60%;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.page{
+	color: #94c6d6;
+	display: inline;
+  padding: 30px;
+  font-family: monospace;
+}
+
+.line{
+  text-align: left;
+  margin: 20px 40px 0px 40px;
+  padding-top: 20px;
+  background-color: white;
+  height: 50px;
+  width: 1350px;
+  border-radius: 50px;
 }
 
 .info{
