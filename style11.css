@@ -1,5 +1,5 @@
 body{
-	background-color: #000000;
+	background-color: #9edbfa;
   text-align: center;
 }
 
@@ -8,17 +8,11 @@ h1{
   font-family: cursive;
 }
 
-a{
-  text-decoration: none;
-}
-
 .line{
   text-align: right;
   background-color: #eaaeb7;
   height: 60px;
-  width: 1800px;
-  border-radius: 60px;
-  padding-right: 30px;
+  width: 1350px;
 }
 
 .portfolio{
@@ -32,91 +26,42 @@ a{
 	color: #8f5cc1;
 	display: inline;
   margin-top: 10px;
-  padding: 45px;
+  padding: 50px;
   font-family: monospace;
   font-size: 15px;
 }
 
-.ty{
-  color: white;
-  padding-top: 30px;
+.pjt11 {
+float: left;
+width: 19%;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 40px;
+margin: 1px;
 }
 
-.me{
-  border-radius: 60%;
-  margin-left: 20px;
-  margin-bottom: 0px;
-}
-
-
-.info{
-  position: absolute;
-  left: 0px;  
-  width: 400px;
-  height: 1000px;
-  border: 3px solid #ea3e3e;
-  margin-left: 200px;
-}
-
-.main-projects {
-  position: absolute;
-  right: 0;
-  width: 1000px;
-  height: 1000px;
-  border: 3px solid #48f98c;
-  margin-right: 200px;
-}
-
-.project-1 {
-  width: 400px;
-  height: 400px;
-  background-color: white;
-  margin: 50px;
+.one {
+  width: 300px;
+  height: 300px;
   position: unset;
-  float:right;
-  border-radius: 50px;
+  background-color: black;
+  animation-duration: 8s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+  animation: example 5s linear 2s infinite alternate;
 }
 
-.project-2 {
-  width: 400px;
-  height: 400px;
-  background-color: white;
-  margin: 50px;
-  float:right;
-  border-radius: 50px;
+h2{
+  color: white;
+  font-family: monospace;
 }
 
-.project-3 {
-  width: 400px;
-  height: 400px;
-  background-color: white;
-  margin: 50px;
-  float:right;
-  border-radius: 50px;
-}
-
-.project-4 {
-  width: 400px;
-  height: 400px;
-  background-color: white;
-  margin: 50px;
-  float:right;
-  border-radius: 50px;
-}
-
-.img1{
-  margin-top: 20px;
-}
-
-.resume{
-  border-style: dotted;
-  border-width: 5px;
-  border-color: yellow;
-}
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #eaaeb7;
+  background-color: #04AA6D;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -155,4 +100,4 @@ a{
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #ffffff;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
